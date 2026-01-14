@@ -1,0 +1,99 @@
+
+---
+
+# **MANUAL TEST CASE REPORT**
+
+## **Travel Booking Platform**
+
+---
+
+## **1. Introduction**
+
+Manual testing is performed to verify that the Travel Booking Platform works correctly and provides a smooth experience for users. The system allows users to search, book, and pay for travel services such as flights and hotels. Manual testing ensures that all features function as expected and that users can complete their bookings without errors.
+
+---
+
+## **2. Objective**
+
+The objectives of manual testing are:
+
+* To verify correct functioning of booking features
+* To ensure secure and accurate transactions
+* To validate user interface and usability
+* To identify and remove defects
+
+---
+
+## **3. Scope of Testing**
+
+The following modules were tested:
+
+* User Registration and Login
+* Search and Filter
+* Booking Process
+* Payment Gateway
+* Booking History
+
+---
+
+## **4. Test Environment**
+
+| Component        | Description             |
+| ---------------- | ----------------------- |
+| Operating System | Windows 10              |
+| Browser          | Google Chrome           |
+| Database         | MySQL                   |
+| Application      | Travel Booking Platform |
+| Testing Type     | Manual Testing          |
+
+---
+
+## **5. Test Scenarios**
+
+* Login and logout functionality
+* Searching for travel services
+* Booking flights and hotels
+* Payment processing
+* Viewing booking history
+
+---
+
+## **6. Manual Test Cases**
+
+| Test Case ID | Test Case Description      | Test Steps                   | Expected Result          | Actual Result    | Status |
+| ------------ | -------------------------- | ---------------------------- | ------------------------ | ---------------- | ------ |
+| TC01         | Login with valid details   | Enter valid credentials      | User logs in             | Login successful | Pass   |
+| TC02         | Login with invalid details | Enter wrong data             | Error shown              | Error displayed  | Pass   |
+| TC03         | Search for travel          | Enter source and destination | Search results displayed | Displayed        | Pass   |
+| TC04         | Book a flight              | Select flight and click book | Booking successful       | Booked           | Pass   |
+| TC05         | Hotel booking              | Select hotel and confirm     | Booking completed        | Completed        | Pass   |
+| TC06         | Make payment               | Enter payment details        | Payment successful       | Success          | Pass   |
+| TC07         | Cancel booking             | Click cancel                 | Booking cancelled        | Cancelled        | Pass   |
+| TC08         | View booking history       | Open history                 | History displayed        | Displayed        | Pass   |
+| TC09         | Logout                     | Click logout                 | User logged out          | Logged out       | Pass   |
+| TC10         | Invalid payment            | Enter wrong card details     | Payment fails            | Error displayed  | Pass   |
+
+---
+
+## **7. Test Results Summary**
+
+| Total Test Cases | Passed | Failed |
+| ---------------- | ------ | ------ |
+| 10               | 10     | 0      |
+
+All test cases passed successfully.
+
+---
+
+## **8. Defect Report**
+
+No major defects were found during testing. Minor UI issues were corrected.
+
+---
+
+## **9. Conclusion**
+
+The Travel Booking Platform was tested successfully. All core features like login, booking, and payment are working properly, making the system reliable for users.
+
+---
+
