@@ -5,8 +5,8 @@ This repository contains my Java assignment submissions completed as part of the
 **Automation Testing: Selenium with Java Training (HCL)**.
 
 * The repository includes solutions for:
-    * Assignment 1 (5 Questions) – Submitted
-    * Assignment 2 (5 Questions) – Submitted
+    * Assignment 1 (5 Questions)
+    * Assignment 2 (5 Questions) 
     * Assignment 3 (5 Questions)
     * Assignment 4 (5 Questions)
     * Assignment 5 (5 Project Reports)
